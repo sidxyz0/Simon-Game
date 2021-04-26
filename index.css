@@ -1,0 +1,96 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.maindiv{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 78);
+}
+
+.headerdiv{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    height: 10%;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 20px 0 0 0;
+    transition: 0.15s ease-in-out;
+}
+
+.headerdiv:hover{
+    background-color: rgb(0, 0, 60);
+    transition: 0.3s ease-in-out;
+}
+
+.row1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.row2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    margin: auto 5% auto auto;
+    border: 8px solid black;
+    border-radius: 15px;
+    background-color: red;
+    width: 15%;
+    height: 15vw;
+    transition: 0.5s ease-in-out;
+}
+
+.green{
+    margin: auto auto auto 5%;
+    border: 8px solid black;
+    border-radius: 15px;
+    background-color: green;
+    width: 15%;
+    height: 15vw;
+    transition: 0.5s ease-in-out;
+}
+
+.blue{
+    margin: auto 5% auto auto;
+    border: 8px solid black;
+    border-radius: 15px;
+    background-color: blue;
+    width: 15%;
+    height: 15vw;
+    transition: 0.5s ease-in-out;
+}
+
+.yellow{
+    margin: auto auto auto 5%;
+    border: 8px solid black;
+    border-radius: 15px;
+    background-color: yellow;
+    width: 15%;
+    height: 15vw;
+    transition: 0.5s ease-in-out;
+}
